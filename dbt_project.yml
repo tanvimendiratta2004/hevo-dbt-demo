@@ -1,0 +1,10 @@
+name: 'hevo_dbt_demo'
+version: '1.0.0'
+config-version: 2
+profile: 'hevo_dbt_demo'
+
+model-paths: ["models"]
+
+models:
+  hevo_dbt_demo:
+    +materialized: table
